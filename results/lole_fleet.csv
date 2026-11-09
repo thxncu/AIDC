@@ -1,0 +1,8 @@
+﻿source,yearend_2030_effective_GW,summer_GW_used,units,unit_size_GW,base_FOR
+nuclear,28.9,28.28,24,1.178,0.02
+coal,31.3,30.63,44,0.696,0.04
+LNG,58.8,57.55,118,0.488,0.04
+pumped hydro,5.2,5.09,17,0.299,0.03
+new energy,2.2,2.15,22,0.098,0.05
+other,0.4,0.39,4,0.098,0.05
+renewables (firm block),9.9,11.5,1,11.5,0.0

@@ -1,0 +1,43 @@
+﻿variant,calibration,calibration_mode,calibration_parameter,implied_mean_availability_pct,LOLE_at_calibration_peak,LOLE_+0,LOLE_+3.7,EUE_GWh_+3.7,LOLE_+6.7,EUE_GWh_+6.7,LOLE_+11.7,EUE_GWh_+11.7,dc_excess_at_LOLE_0.3,EFC_share_25pct_3h_lowload_+6.7,EFC_share_25pct_3h_lowload_+11.7
+base,derate,re-calibrated,9.7543,89.5746,0.3,0.0,0.001,0.0011,0.0512,0.0851,2.7355,11.8821,8.4377,0.7775,0.5663
+base,outage scaling,re-calibrated,2.8789,90.7095,0.3,0.0001,0.0067,0.0148,0.0901,0.2679,1.9095,10.4181,8.3847,0.8076,0.5685
+larger units,derate,re-calibrated,9.2624,89.9374,0.3,0.0,0.0028,0.0045,0.0685,0.1525,2.362,11.1298,8.4093,0.7953,0.5629
+larger units,outage scaling,re-calibrated,2.697,91.2959,0.3,0.0004,0.0116,0.0339,0.106,0.3955,1.6651,10.2155,8.3586,0.8191,0.5716
+smaller units,derate,re-calibrated,10.1842,89.2576,0.3,0.0,0.0002,0.0001,0.0322,0.0365,3.1172,13.0023,8.4564,0.7598,0.5649
+smaller units,outage scaling,re-calibrated,3.0544,90.1436,0.3,0.0,0.0027,0.0041,0.0703,0.1545,2.2471,10.8746,8.414,0.7921,0.5655
+uniform outage rate 4%,derate,re-calibrated,8.889,89.7768,0.3,0.0,0.0018,0.0024,0.0602,0.1172,2.5111,11.3704,8.4326,0.7849,0.5617
+uniform outage rate 4%,outage scaling,re-calibrated,2.497,90.8525,0.3,0.0002,0.0078,0.0185,0.0943,0.2978,1.8406,10.3463,8.3776,0.8106,0.5692
+load year 2023 only,derate,re-calibrated,9.4906,89.7691,0.3,0.0,0.0008,0.0009,0.0474,0.0773,2.9113,12.8494,8.4402,0.8019,0.5159
+load year 2023 only,outage scaling,re-calibrated,2.8146,90.9168,0.3,0.0001,0.0059,0.0129,0.0861,0.2548,1.9161,10.9312,8.4056,0.7948,0.5257
+load year 2024 only,derate,re-calibrated,10.1252,89.3011,0.3,0.0,0.0013,0.0018,0.0577,0.1193,2.6157,13.0557,8.4242,0.5673,0.468
+load year 2024 only,outage scaling,re-calibrated,2.9621,90.4412,0.3,0.0002,0.0077,0.0209,0.0949,0.3388,1.8884,11.4423,8.3561,0.6495,0.4805
+load year 2025 only,derate,re-calibrated,9.7616,89.5692,0.3,0.0,0.001,0.001,0.0511,0.0719,2.7691,10.0546,8.4343,0.998,0.7424
+load year 2025 only,outage scaling,re-calibrated,2.878,90.7124,0.3,0.0001,0.0066,0.0123,0.0898,0.2243,1.9621,9.0223,8.3798,0.985,0.7114
+base (load years 2024-25),derate,re-calibrated,9.9199,89.4525,0.3,0.0,0.0011,0.0013,0.0532,0.0902,2.6615,11.303,8.4335,0.7687,0.5988
+base (load years 2024-25),outage scaling,re-calibrated,2.917,90.5866,0.3,0.0001,0.0071,0.0158,0.0922,0.2727,1.9247,10.0942,8.3693,0.819,0.5964
+variable RE (load years 2024-25),derate,re-calibrated,6.0623,,0.3,0.0,0.0013,0.0011,0.0611,0.0735,3.1963,8.6429,8.2888,0.3383,0.2917
+variable RE (load years 2024-25),outage scaling,re-calibrated,2.1416,,0.3,0.0001,0.0048,0.0063,0.0874,0.1494,2.4077,7.5005,8.2575,0.3412,0.2969
+"nuclear common-mode 3 GW, once every 5 years",derate,"base calibration, event added",9.7543,89.3093,0.5369,0.0,0.007,0.0112,0.1447,0.3554,3.4586,18.5651,7.5989,0.7957,0.5751
+"nuclear common-mode 3 GW, once every 5 years",outage scaling,"base calibration, event added",2.8789,90.4441,0.4536,0.0005,0.0167,0.0451,0.1604,0.5776,2.4225,15.2412,7.6693,0.8175,0.5749
+"nuclear common-mode 6 GW, once every 5 years",derate,"base calibration, event added",9.7543,89.044,1.1382,0.0027,0.1005,0.2816,0.556,2.8214,4.6924,39.1515,5.456,0.8462,0.583
+"nuclear common-mode 6 GW, once every 5 years",outage scaling,"base calibration, event added",2.8789,90.1788,0.8836,0.0063,0.087,0.3549,0.4339,2.4485,3.406,30.2021,5.9482,0.8397,0.584
+"nuclear common-mode 3 GW, once every 10 years",derate,"base calibration, event added",9.7543,89.442,0.4185,0.0,0.004,0.0062,0.0979,0.2202,3.097,15.2236,7.9939,0.791,0.5721
+"nuclear common-mode 3 GW, once every 10 years",outage scaling,"base calibration, event added",2.8789,90.5768,0.3768,0.0003,0.0117,0.0299,0.1252,0.4228,2.166,12.8297,8.0026,0.8139,0.572
+"nuclear common-mode 6 GW, once every 10 years",derate,"base calibration, event added",9.7543,89.3093,0.7191,0.0013,0.0507,0.1413,0.3036,1.4532,3.714,25.5168,6.6757,0.8419,0.5765
+"nuclear common-mode 6 GW, once every 10 years",outage scaling,"base calibration, event added",2.8789,90.4441,0.5918,0.0032,0.0468,0.1848,0.262,1.3582,2.6578,20.3101,6.9581,0.8338,0.578
+"nuclear common-mode 3 GW, once every 20 years",derate,"base calibration, event added",9.7543,89.5083,0.3592,0.0,0.0025,0.0036,0.0745,0.1527,2.9163,13.5528,8.2106,0.7865,0.5698
+"nuclear common-mode 3 GW, once every 20 years",outage scaling,"base calibration, event added",2.8789,90.6431,0.3384,0.0002,0.0092,0.0223,0.1076,0.3453,2.0377,11.6239,8.1875,0.8113,0.5704
+"nuclear common-mode 6 GW, once every 20 years",derate,"base calibration, event added",9.7543,89.442,0.5095,0.0007,0.0259,0.0712,0.1774,0.7691,3.2248,18.6994,7.5371,0.8356,0.5732
+"nuclear common-mode 6 GW, once every 20 years",outage scaling,"base calibration, event added",2.8789,90.5768,0.4459,0.0017,0.0267,0.0998,0.176,0.813,2.2836,15.3641,7.6223,0.8267,0.5739
+larger units (fixed calibration),derate,fixed (base constants),9.7543,89.5746,0.431,0.0,0.0049,0.0084,0.1074,0.2542,2.9969,15.2817,7.9174,0.7957,0.5665
+larger units (fixed calibration),outage scaling,fixed (base constants),2.8789,90.7095,0.5042,0.0012,0.026,0.0843,0.1977,0.828,2.4257,16.8342,7.402,0.8238,0.5778
+smaller units (fixed calibration),derate,fixed (base constants),9.7543,89.5746,0.1856,0.0,0.0001,0.0001,0.0169,0.0177,2.5378,9.3464,8.8864,0.756,0.5511
+smaller units (fixed calibration),outage scaling,fixed (base constants),2.8789,90.7095,0.1515,0.0,0.0008,0.0011,0.0291,0.0552,1.4797,6.1054,9.2678,0.7846,0.5538
+uniform outage rate 4% (fixed calibration),derate,fixed (base constants),9.7543,89.1387,0.5779,0.0,0.0053,0.0081,0.1401,0.3072,3.7358,19.8935,7.5673,0.7926,0.579
+uniform outage rate 4% (fixed calibration),outage scaling,fixed (base constants),2.8789,89.4545,0.9928,0.0023,0.0551,0.1722,0.4106,1.7401,4.2414,32.3928,6.1789,0.8262,0.5851
+load year 2023 only (fixed calibration),derate,fixed (base constants),9.7543,89.5746,0.3824,0.0,0.0012,0.0014,0.0648,0.1089,3.2773,15.51,8.1765,0.8011,0.513
+load year 2023 only (fixed calibration),outage scaling,fixed (base constants),2.8789,90.7095,0.3701,0.0002,0.0084,0.0191,0.1118,0.3474,2.1975,13.2358,8.0804,0.795,0.528
+load year 2024 only (fixed calibration),derate,fixed (base constants),9.7543,89.5746,0.2198,0.0,0.0007,0.001,0.038,0.075,2.17,10.1342,8.7952,0.5667,0.4483
+load year 2024 only (fixed calibration),outage scaling,fixed (base constants),2.8789,90.7095,0.229,0.0001,0.005,0.0128,0.0682,0.231,1.5648,8.9714,8.7759,0.6393,0.4711
+load year 2025 only (fixed calibration),derate,fixed (base constants),9.7543,89.5746,0.2978,0.0,0.001,0.001,0.0507,0.0712,2.7592,10.002,8.4417,0.9978,0.7418
+load year 2025 only (fixed calibration),outage scaling,fixed (base constants),2.8789,90.7095,0.3009,0.0001,0.0066,0.0124,0.0901,0.2252,1.9661,9.047,8.3752,0.985,0.7114

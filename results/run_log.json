@@ -1,0 +1,103 @@
+{
+  "qc": {
+    "files": 12,
+    "rows_raw": 314563,
+    "duplicates_dropped": 0,
+    "nonpositive_supply_dropped": 3,
+    "rows_clean": 314560,
+    "expected_5min_intervals": 315647,
+    "missing_intervals": 1087,
+    "missing_share_pct": 0.344,
+    "longest_gap_intervals": 319,
+    "first": "2023-01-01 00:00:00",
+    "last": "2025-12-31 23:50:00",
+    "reserve_delta_mean_MW_2023": 558.8,
+    "reserve_delta_mean_MW_2025": -0.3,
+    "reserve_delta_at_16_18h_summer_2023_MW": 47.2
+  },
+  "intraday_reserve_time_of_min_83pct": [
+    {
+      "dc_excess_GW": 0.0,
+      "time_of_min": "18:45",
+      "supply_pattern_at_min": 0.981,
+      "demand_rel_to_peak_at_min": 0.984
+    },
+    {
+      "dc_excess_GW": 3.7,
+      "time_of_min": "18:45",
+      "supply_pattern_at_min": 0.981,
+      "demand_rel_to_peak_at_min": 0.984
+    },
+    {
+      "dc_excess_GW": 6.7,
+      "time_of_min": "18:45",
+      "supply_pattern_at_min": 0.981,
+      "demand_rel_to_peak_at_min": 0.984
+    },
+    {
+      "dc_excess_GW": 11.7,
+      "time_of_min": "18:45",
+      "supply_pattern_at_min": 0.981,
+      "demand_rel_to_peak_at_min": 0.984
+    }
+  ],
+  "peak_duration_median_max_hours": {
+    "2023": {
+      "hours_ge_97pct_daily_peak": [
+        3.33,
+        4.67
+      ],
+      "hours_ge_95pct_daily_peak": [
+        4.88,
+        9.0
+      ],
+      "hours_ge_90pct_daily_peak": [
+        11.25,
+        12.58
+      ]
+    },
+    "2024": {
+      "hours_ge_97pct_daily_peak": [
+        4.42,
+        6.5
+      ],
+      "hours_ge_95pct_daily_peak": [
+        6.12,
+        7.5
+      ],
+      "hours_ge_90pct_daily_peak": [
+        8.75,
+        13.17
+      ]
+    },
+    "2025": {
+      "hours_ge_97pct_daily_peak": [
+        3.75,
+        4.67
+      ],
+      "hours_ge_95pct_daily_peak": [
+        4.92,
+        7.33
+      ],
+      "hours_ge_90pct_daily_peak": [
+        8.17,
+        13.17
+      ]
+    }
+  },
+  "share_top20_days_97pct_window_le_3h": 0.217,
+  "share_top20_days_95pct_window_le_3h": 0.1,
+  "share_top20_days_97pct_window_le_4h": 0.533,
+  "share_top20_days_95pct_window_le_4h": 0.15,
+  "share_top20_days_97pct_window_le_6h": 0.967,
+  "share_top20_days_95pct_window_le_6h": 0.633,
+  "availability_vs_load": {
+    "slope_pp_avail_per_pp_load": 0.66,
+    "se": 0.022,
+    "r2_within": 0.723,
+    "n_days": 365,
+    "months": "Jun-Sep",
+    "denominator": "interpolated year-end"
+  },
+  "mc_median_point_MW": 367.2
+}

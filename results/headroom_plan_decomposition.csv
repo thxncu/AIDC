@@ -1,0 +1,6 @@
+﻿threshold,installed_RM_pct,dc_headroom_GW
+Plan 2030 as planned,21.72,0.0
+Applied medium-term standard,21.0,0.67
+Computed 2030 standard (13.1+6.1+0.9),20.1,1.51
+Demand-uncertainty buffer exhausted (13.1+0.9),14.0,7.55
+LOLE 0.3 day/yr level (13.1),13.1,8.49

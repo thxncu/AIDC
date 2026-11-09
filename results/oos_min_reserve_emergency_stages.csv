@@ -1,0 +1,5 @@
+﻿year,min_supply_reserve_GW,time_of_min,demand_at_min_GW,supply_at_min_GW,hours_below_preparation,hours_below_attention,hours_below_caution,hours_below_alert,hours_below_serious
+2023,10.426,2023-09-20 10:55:00,80.658,91.51,0.0,0.0,0.0,0.0,0.0
+2024,6.236,2024-08-20 15:50:00,97.148,103.384,0.0,0.0,0.0,0.0,0.0
+2025,8.012,2025-08-21 18:45:00,95.172,103.184,0.0,0.0,0.0,0.0,0.0
+2026,5.55,2026-06-30 16:40:00,78.137,83.688,0.0,0.0,0.0,0.0,0.0

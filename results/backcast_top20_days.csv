@@ -1,0 +1,6 @@
+﻿year,denominator,days,actual_RM_mean,actual_RM_min,pred_RM_mean_83pct,mean_error_pp,availability_mean_pct
+2023,interpolated year-end,20,15.643,10.679,11.018,-4.626,86.459
+2024,interpolated year-end,20,10.942,8.228,10.709,-0.234,83.194
+2024,Plan p.50 summer,20,10.942,8.228,8.831,-2.112,84.629
+2025,interpolated year-end,20,13.329,8.419,13.645,0.317,82.76
+2025,Plan p.50 summer,20,13.329,8.419,12.392,-0.937,83.684

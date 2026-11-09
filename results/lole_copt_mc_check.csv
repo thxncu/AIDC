@@ -1,0 +1,7 @@
+﻿calibration,check,load_GW,LOLP_COPT,LOLP_MC,LOLP_MC_se,EUP_GW_COPT,EUP_GW_MC
+derate,"COPT vs 400,000 Monte Carlo draws",119.8939,0.16844,0.1684,0.00059,0.17898,0.1793
+derate,"COPT vs 400,000 Monte Carlo draws",119.8,0.154,0.15446,0.00057,0.16375,0.16403
+derate,"COPT vs 400,000 Monte Carlo draws",123.1,0.84066,0.84062,0.00058,1.74436,1.74636
+outage scaling,"COPT vs 400,000 Monte Carlo draws",119.8939,0.12768,0.12812,0.00053,0.19323,0.19439
+outage scaling,"COPT vs 400,000 Monte Carlo draws",119.8,0.12118,0.12182,0.00052,0.18154,0.18267
+outage scaling,"COPT vs 400,000 Monte Carlo draws",123.1,0.4986,0.49853,0.00079,1.1274,1.12798

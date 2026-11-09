@@ -1,0 +1,5 @@
+﻿year,sample,denominator,effcap_GW,top20_mean,top20_p5,julaug_mean,julaug_p5,system_minus_market_target_GW,top20_mean_net_of_nonmarket
+2023,in-sample,interpolated year-end (no Plan value),120.7,84.403,80.752,83.476,78.805,,
+2024,in-sample,Plan p.50 summer,121.7,83.379,79.607,81.244,77.01,5.4,87.251
+2025,in-sample,Plan p.50 summer,125.5,82.53,78.681,81.749,78.012,5.7,86.457
+2026,out-of-sample,Plan p.50 summer,128.7,82.347,80.267,80.634,76.045,6.1,86.445

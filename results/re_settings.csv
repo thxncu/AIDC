@@ -1,0 +1,7 @@
+﻿item,value
+base_solar_region,부산시
+after_dark_rule_pct,2.0
+min_annual_GWh,100.0
+K_WIND,1.7532
+cv_mainland_JanMay2024,0.6718
+cv_jeju_JanMay2024,0.966

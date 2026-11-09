@@ -1,0 +1,13 @@
+﻿calibration,dc_excess_GW,installed_RM_pct,LOLE_days_per_yr,LOLH_hours_per_yr,EUE_GWh_per_yr
+derate,0.0,21.7235,0.0,0.0,0.0
+derate,0.36,21.3314,0.0,0.0,0.0
+derate,3.7,17.8106,0.001,0.0018,0.0011
+derate,6.7,14.818,0.0512,0.1089,0.0851
+derate,8.4,13.1886,0.2869,0.6827,0.6337
+derate,11.7,10.1543,2.7355,8.3706,11.8821
+outage scaling,0.0,21.7235,0.0001,0.0003,0.0002
+outage scaling,0.36,21.3314,0.0002,0.0004,0.0003
+outage scaling,3.7,17.8106,0.0067,0.0156,0.0148
+outage scaling,6.7,14.818,0.0901,0.2348,0.2679
+outage scaling,8.4,13.1886,0.3031,0.8468,1.0911
+outage scaling,11.7,10.1543,1.9095,6.2086,10.4181

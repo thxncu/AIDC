@@ -1,0 +1,11 @@
+﻿item,value
+"Plan ratio, peak increment / suppliable contracted capacity, 2027",0.318
+"Plan ratio, total DC peak growth 2023-2027 / suppliable contracted capacity",0.36
+AI facility utilisation bound (assumption),0.7
+"Plan 2030 DC trajectory as contracts in service (GW), total growth since 2023 / total ratio",7.493
+"Plan 2030 DC trajectory as contracts in service (GW), increment over trend / increment ratio",7.234
+Plan DC trend growth 2027-2030 (GW of summer peak),1.0
+GPU programme median / Plan 2027-2030 trend growth,0.361
+IDC Korea 2025 total DC power / Plan 2025 DC summer peak,3.718
+Plan 2030 DC energy (TWh) as average GW,2.055
+Plan 2030 DC summer peak / average power,1.606

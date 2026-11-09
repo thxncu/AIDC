@@ -1,0 +1,4 @@
+﻿availability,availability_pct,available_GW,reserve_at_plan_market_demand_GW,headroom_to_preparation_GW,headroom_to_attention_GW,headroom_to_caution_GW,headroom_to_alert_GW,headroom_to_serious_GW
+83% rule,83.0,112.548,7.348,1.848,2.848,3.848,4.848,5.848
+"2025 top-20 mean, summer denominator",83.418,113.115,7.915,2.415,3.415,4.415,5.415,6.415
+"2024 top-20 mean, summer denominator",83.455,113.165,7.965,2.465,3.465,4.465,5.465,6.465

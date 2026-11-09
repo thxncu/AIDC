@@ -1,0 +1,5 @@
+﻿year,sample,mean_daily_peak_GW,actual_RM_mean,actual_RM_min,availability_mean_pct,load_cond_availability_mean_pct,pred_RM_mean_83pct,error_pp_83pct,pred_RM_mean_load_cond,error_pp_load_cond,mae_pp_83pct,mae_pp_load_cond
+2023,in-sample,87.48,16.784,12.047,,,,,,,,
+2024,in-sample,92.445,11.544,8.468,84.705,85.387,9.32,-2.225,12.433,0.889,2.647,1.508
+2025,in-sample,92.113,12.992,9.125,82.906,83.779,13.132,0.14,14.167,1.175,1.005,1.534
+2026,out-of-sample,92.202,14.586,8.854,82.056,82.678,15.895,1.308,15.424,0.838,1.389,1.649
