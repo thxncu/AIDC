@@ -1,5 +1,5 @@
 ﻿parameter,low_MW,high_MW,swing_MW
 Server overhead,286.9,470.0,183.0
 GPU power,283.5,450.9,167.4
-Peak power factor,285.1,449.4,164.3
+Peak utilization factor,285.1,449.4,164.3
 PUE,328.6,405.8,77.2
