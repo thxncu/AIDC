@@ -272,12 +272,12 @@ N = C.MC_N
 
 
 def draw(u):
-    """Map uniforms (N x 4) to P_max, OH, U (peak power factor), PUE as specified in Table 2."""
+    """Map uniforms (N x 4) to P_max, OH, U (peak utilization factor), PUE as specified in Table 2."""
     # GPU power bounds: maximum TGP of Hopper (700 W) and Blackwell Ultra (1,400 W),
     # NVIDIA Technical Blog, Aubrey & Stam (22 Aug 2025), Table 2; mode at the midpoint.
     P = stats.triang.ppf(u[:, 0], c=(1050 - 700) / (1400 - 700), loc=700, scale=700)
     OH = stats.lognorm.ppf(u[:, 1], s=0.15, scale=np.exp(0.43))
-    # peak power factor U: assumed share of maximum power drawn at the system peak; range informed by
+    # peak utilization factor U: assumed share of maximum power drawn at the system peak; range informed by
     # the operating-time assumptions of Shehabi et al. (2024), not estimated from them
     U = 0.40 + 0.45 * stats.beta.ppf(u[:, 2], 3, 3)
     a, b = (1.2 - 1.4) / 0.1, (1.6 - 1.4) / 0.1
@@ -293,7 +293,7 @@ NETWORK_FACTOR = 1.14
 variants = {"independent": np.eye(4)}
 R = np.eye(4)
 R[0, 3] = R[3, 0] = -0.4   # higher-power GPUs -> liquid cooling -> lower PUE
-R[2, 3] = R[3, 2] = -0.3   # higher peak power factor -> lower PUE (fixed overhead spread)
+R[2, 3] = R[3, 2] = -0.3   # higher peak utilization factor -> lower PUE (fixed overhead spread)
 variants["correlated (rho_P,PUE=-0.4; rho_U,PUE=-0.3)"] = R
 rows = []
 for name, Rm in variants.items():
@@ -319,7 +319,7 @@ save(mc.round({"median_MW": 1, "p5_MW": 1, "p95_MW": 1, "mean_MW": 1}), "monte_c
 
 # tornado (one-at-a-time P5/P95, others at median), Eq. (2) only
 med = draw(np.full((1, 4), 0.5))
-names = ["GPU power", "Server overhead", "Peak power factor", "PUE"]
+names = ["GPU power", "Server overhead", "Peak utilization factor", "PUE"]
 rows = []
 for i, nm in enumerate(names):
     vals = []
